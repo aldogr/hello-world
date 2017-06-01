@@ -1,0 +1,11 @@
+{application,copter,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{copter_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[copter_app,copter_server,copter_sup,ctrl,singlectrl]},
+              {maintainers,[]},
+              {licenses,[]},
+              {links,[]}]}.
